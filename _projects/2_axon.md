@@ -3,7 +3,7 @@ layout: page
 title: Axon
 description: A minimal deep learning framework built in C++20 from scratch with eager autograd, AVX2 SIMD CPU backend, and GGML-style quantization
 img: assets/img/9.jpg
-importance: 3
+importance: 4
 category: ML Systems & Compilers
 github: https://github.com/ruwwww/Axon
 ---

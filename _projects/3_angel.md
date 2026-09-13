@@ -3,7 +3,7 @@ layout: page
 title: Angel
 description: Next-generation distributed LLM RL framework with VERL-style 3D HybridEngine architecture (In Development)
 img: assets/img/7.jpg
-importance: 4
+importance: 5
 category: ML Systems & Compilers
 github: https://github.com/ruwwww/angel
 ---
