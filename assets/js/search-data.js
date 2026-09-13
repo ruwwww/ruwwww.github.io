@@ -109,6 +109,11 @@ ninja.data = [{
           description: "High-performance C++/CUDA single-GPU inference engine for NVIDIA Blackwell architecture (RTX 5090 &amp; RTX 5060 Ti 16GB)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_ninfer/";
+            },},{id: "projects-auk-optimization-rtx-5060-ti",
+          title: 'AuK Optimization (RTX 5060 Ti)',
+          description: "Bare-metal inference &amp; ultra-low-latency streaming engine for Tencent Hunyuan AuK-Flash 1.5B on NVIDIA Blackwell SM120",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_auk_optimization/";
             },},{id: "projects-yoshida",
           title: 'Yoshida',
           description: "Production-grade General LLM Reinforcement Learning &amp; Post-Training Framework",
