@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-gallery",
           title: "gallery",
-          description: "Digital artwork, fanart, and character visual studies",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/gallery/";
