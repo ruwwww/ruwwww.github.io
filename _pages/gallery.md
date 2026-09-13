@@ -28,6 +28,12 @@ images:
     column-count: 2;
     column-gap: 1.5rem;
   }
+  @media (min-width: 992px) {
+    .gallery-masonry {
+      column-count: 3;
+      column-gap: 1.5rem;
+    }
+  }
   @media (max-width: 600px) {
     .gallery-masonry {
       column-count: 1;
@@ -112,10 +118,10 @@ images:
 
 <!-- Gallery Container -->
 <div id="gallery-container" class="is-blurred">
-  <!-- Intro Note about LoRA & Opportunities -->
+  <!-- Intro Note about Works & LoRA Opportunities -->
   <div class="gallery-intro">
-    All artworks showcased here are trained and generated using custom <strong>LoRA</strong> (Low-Rank Adaptation) models.
-    I am actively open to opportunities, commissions, and collaborations for custom LoRA training and diffusion pipelines—feel free to reach out via <a href="mailto:fixgmc@gmail.com">email</a> or connect on <a href="https://github.com/ruwwww" target="_blank" rel="noopener">GitHub</a>.
+    A showcase of digital artworks, character illustrations, and visual studies—featuring custom-trained <strong>LoRA</strong> (Low-Rank Adaptation) models and direct diffusion generative pipelines.
+    I am actively open to opportunities, commissions, and collaborations for custom LoRA training and diffusion workflows—feel free to reach out via <a href="mailto:fixgmc@gmail.com">email</a> or connect on <a href="https://github.com/ruwwww" target="_blank" rel="noopener">GitHub</a>.
   </div>
 
   <!-- Pure Visual Masonry Grid -->
@@ -125,7 +131,7 @@ images:
       <a class="spotlight gallery-link"
          href="{{ '/assets/img/art/burstinatrix.png' | relative_url }}">
         <img src="{{ '/assets/img/art/burstinatrix.png' | relative_url }}"
-             alt="LoRA Generated Artwork"
+             alt="Visual Artwork"
              loading="eager">
       </a>
     </div>
@@ -135,7 +141,17 @@ images:
       <a class="spotlight gallery-link"
          href="{{ '/assets/img/art/supergirl.png' | relative_url }}">
         <img src="{{ '/assets/img/art/supergirl.png' | relative_url }}"
-             alt="LoRA Generated Artwork"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 3: Mirko -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/mirko.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/mirko.png' | relative_url }}"
+             alt="Visual Artwork"
              loading="eager">
       </a>
     </div>
