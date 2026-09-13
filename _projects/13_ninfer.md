@@ -27,13 +27,13 @@ github: https://github.com/ruwwww/ninfer-5060ti
 
 ### Supported Model Artifacts
 
-| Model | Weight Profile | Execution Target | Artifact Hub |
-|---|---|---|---|
-| **Qwen3.5-9B** | `groupwise-int` / MTP | Blackwell SM_120a | [Hugging Face](https://huggingface.co/ruwwww/qwen3.5-9b-ninfer) |
-| **Ornith-1.5-9B** | `groupwise-int` / MTP | Blackwell SM_120a | [Hugging Face](https://huggingface.co/ruwwww/ornith-1.5-9b-ninfer) |
-| **Qwen3.6-27B** | `nvfp4` / `groupwise-int` | Blackwell SM_120a | [Hugging Face](https://huggingface.co/neroued/Qwen3.6-27B-nvfp4-NInfer) |
-| **Qwen3.8-27B** | `nvfp4` / `groupwise-int` | Blackwell SM_120a | [Hugging Face](https://huggingface.co/neroued/Qwen3.8-27B-nvfp4-NInfer) |
-| **Qwen3.6-35B-A3B** | `groupwise-int` / DFlash | Blackwell SM_120a | [Hugging Face](https://huggingface.co/neroued/Qwen3.6-35B-A3B-NInfer) |
+| Model               | Weight Profile            | Execution Target  | Artifact Hub                                                            |
+| ------------------- | ------------------------- | ----------------- | ----------------------------------------------------------------------- |
+| **Qwen3.5-9B**      | `groupwise-int` / MTP     | Blackwell SM_120a | [Hugging Face](https://huggingface.co/ruwwww/qwen3.5-9b-ninfer)         |
+| **Ornith-1.5-9B**   | `groupwise-int` / MTP     | Blackwell SM_120a | [Hugging Face](https://huggingface.co/ruwwww/ornith-1.5-9b-ninfer)      |
+| **Qwen3.6-27B**     | `nvfp4` / `groupwise-int` | Blackwell SM_120a | [Hugging Face](https://huggingface.co/neroued/Qwen3.6-27B-nvfp4-NInfer) |
+| **Qwen3.8-27B**     | `nvfp4` / `groupwise-int` | Blackwell SM_120a | [Hugging Face](https://huggingface.co/neroued/Qwen3.8-27B-nvfp4-NInfer) |
+| **Qwen3.6-35B-A3B** | `groupwise-int` / DFlash  | Blackwell SM_120a | [Hugging Face](https://huggingface.co/neroued/Qwen3.6-35B-A3B-NInfer)   |
 
 ```bash
 # Serve 9B artifact on RTX 5060 Ti with MTP3 speculative decoding

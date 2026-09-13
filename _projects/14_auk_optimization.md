@@ -22,13 +22,13 @@ The project achieves **24.3× to 30.4× real-time throughput** with **zero Comfy
 
 Measured on warmed-up steady-state execution on RTX 5060 Ti 16GB (4-step Euler flow sampling + BigVGANFlowVAE decode):
 
-| Audio Length | Latent Frames | 4-step Euler Sampling | Sampling / Step | VAE Decode | Total Latency | Real-Time Factor |
-| ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **3.0 s** | 150 | 60.91 ms | 15.2 ms | 62.53 ms | **123.43 ms** | **24.3× real-time** |
-| **5.0 s** | 250 | 75.23 ms | 18.8 ms | 98.74 ms | **173.97 ms** | **28.7× real-time** |
-| **10.0 s** | 500 | 107.51 ms | 26.8 ms | 221.43 ms | **328.94 ms** | **30.4× real-time** |
+| Audio Length | Latent Frames | 4-step Euler Sampling | Sampling / Step | VAE Decode | Total Latency |    Real-Time Factor |
+| -----------: | ------------: | --------------------: | --------------: | ---------: | ------------: | ------------------: |
+|    **3.0 s** |           150 |              60.91 ms |         15.2 ms |   62.53 ms | **123.43 ms** | **24.3× real-time** |
+|    **5.0 s** |           250 |              75.23 ms |         18.8 ms |   98.74 ms | **173.97 ms** | **28.7× real-time** |
+|   **10.0 s** |           500 |             107.51 ms |         26.8 ms |  221.43 ms | **328.94 ms** | **30.4× real-time** |
 
-*Note: Repeated persona/instruction pairs leverage the persistent conditioning cache, serving the text conditioning tensor in under **0.05 ms** compared to the ~18s cold text encoder path.*
+_Note: Repeated persona/instruction pairs leverage the persistent conditioning cache, serving the text conditioning tensor in under **0.05 ms** compared to the ~18s cold text encoder path._
 
 ### Key Architectural Systems
 
