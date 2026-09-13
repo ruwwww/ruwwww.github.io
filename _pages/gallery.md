@@ -156,6 +156,16 @@ images:
       </a>
     </div>
 
+    <!-- Item 4: Makima Maid -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/makima_maid.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/makima_maid.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
   </div>
 </div>
 
