@@ -104,6 +104,11 @@ ninja.data = [{
           description: "Automated RPG game engine, progression state machine, and battle mechanics backend",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_idlerpg/";
+            },},{id: "projects-ninfer-rtx-5060-ti",
+          title: 'NInfer (RTX 5060 Ti)',
+          description: "High-performance C++/CUDA single-GPU inference engine for NVIDIA Blackwell architecture (RTX 5090 &amp; RTX 5060 Ti 16GB)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_ninfer/";
             },},{id: "projects-yoshida",
           title: 'Yoshida',
           description: "Production-grade General LLM Reinforcement Learning &amp; Post-Training Framework",
