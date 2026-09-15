@@ -37,6 +37,20 @@ artworks:
     alt: Tactical Blonde Sunset
   - name: gorou_suit
     alt: Gorou Suit
+  - name: dragon_ruins
+    alt: Visual Artwork
+  - name: angel_maid_gesture
+    alt: Visual Artwork
+  - name: ryuko_hoodie
+    alt: Visual Artwork
+  - name: tan_schoolgirl
+    alt: Visual Artwork
+  - name: angel_maid_halo
+    alt: Visual Artwork
+  - name: himeno_eye
+    alt: Visual Artwork
+  - name: crimson_shadow
+    alt: Visual Artwork
 ---
 
 <style>
