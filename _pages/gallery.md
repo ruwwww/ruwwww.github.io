@@ -51,6 +51,30 @@ artworks:
     alt: Visual Artwork
   - name: crimson_shadow
     alt: Visual Artwork
+  - name: art_1789487942378
+    alt: Visual Artwork
+  - name: art_1789487942388
+    alt: Visual Artwork
+  - name: art_1789487942397
+    alt: Visual Artwork
+  - name: art_1789487942406
+    alt: Visual Artwork
+  - name: art_1789487942416
+    alt: Visual Artwork
+  - name: art_1789487942426
+    alt: Visual Artwork
+  - name: art_1789487942434
+    alt: Visual Artwork
+  - name: art_1789487942445
+    alt: Visual Artwork
+  - name: art_1789487942455
+    alt: Visual Artwork
+  - name: art_1789487942465
+    alt: Visual Artwork
+  - name: art_1789487942477
+    alt: Visual Artwork
+  - name: art_1789487942489
+    alt: Visual Artwork
 ---
 
 <style>
