@@ -166,6 +166,116 @@ images:
       </a>
     </div>
 
+    <!-- Item 5: Demon Flame -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/demon_green_flame.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/demon_green_flame.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 6: Scaramouche -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/scaramouche_school.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/scaramouche_school.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 7: Mecha Pilot -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/mecha_pilot.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/mecha_pilot.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 8: Angel Devil Maid (Drink) -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/angel_maid_drink.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/angel_maid_drink.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 9: Yoru Winter Tactical -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/yoru_winter_tactical.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/yoru_winter_tactical.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 10: Angel Devil Maid (White) -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/angel_maid_white.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/angel_maid_white.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 11: Kobeni Fishing -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/kobeni_fishing.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/kobeni_fishing.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 12: Angel Devil Catboy -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/angel_catboy.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/angel_catboy.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 13: Glitch Water Girl -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/glitch_water_girl.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/glitch_water_girl.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 14: Tactical Blonde Sunset -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/tactical_blonde_sunset.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/tactical_blonde_sunset.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
+    <!-- Item 15: Gorou Suit -->
+    <div class="gallery-item">
+      <a class="spotlight gallery-link"
+         href="{{ '/assets/img/art/gorou_suit.png' | relative_url }}">
+        <img src="{{ '/assets/img/art/gorou_suit.png' | relative_url }}"
+             alt="Visual Artwork"
+             loading="eager">
+      </a>
+    </div>
+
   </div>
 </div>
 
