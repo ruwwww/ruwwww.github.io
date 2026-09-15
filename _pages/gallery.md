@@ -6,6 +6,37 @@ nav: true
 nav_order: 4
 images:
   spotlight: true
+artworks:
+  - name: burstinatrix
+    alt: Elemental HERO Burstinatrix
+  - name: supergirl
+    alt: Supergirl in the Rain
+  - name: mirko
+    alt: Mirko
+  - name: makima_maid
+    alt: Makima Maid
+  - name: demon_green_flame
+    alt: Demon Flame
+  - name: scaramouche_school
+    alt: Scaramouche
+  - name: mecha_pilot
+    alt: Mecha Pilot
+  - name: angel_maid_drink
+    alt: Angel Devil Maid Drink
+  - name: yoru_winter_tactical
+    alt: Yoru Winter Tactical
+  - name: angel_maid_white
+    alt: Angel Devil Maid
+  - name: kobeni_fishing
+    alt: Kobeni Fishing
+  - name: angel_catboy
+    alt: Angel Devil Catboy
+  - name: glitch_water_girl
+    alt: Glitch Water Girl
+  - name: tactical_blonde_sunset
+    alt: Tactical Blonde Sunset
+  - name: gorou_suit
+    alt: Gorou Suit
 ---
 
 <style>
@@ -49,11 +80,14 @@ images:
     background-color: var(--global-card-bg-color, var(--global-bg-color));
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
+    /* Prevent layout shift */
+    min-height: 250px;
+    position: relative;
   }
 
   .gallery-item:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
   }
 
   .gallery-link {
@@ -62,17 +96,24 @@ images:
     cursor: zoom-in;
     position: relative;
     overflow: hidden;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.05) 100%);
+  }
+
+  .gallery-link picture {
+    display: block;
+    width: 100%;
   }
 
   .gallery-link img {
     width: 100%;
     height: auto;
     display: block;
-    transition: transform 0.35s ease;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease;
+    content-visibility: auto;
   }
 
   .gallery-link:hover img {
-    transform: scale(1.02);
+    transform: scale(1.025);
   }
 
   /* Warning Modal & Blur state */
@@ -126,156 +167,24 @@ images:
 
   <!-- Pure Visual Masonry Grid -->
   <div class="gallery-masonry">
-    <!-- Item 1: Burstinatrix -->
+    {% for art in page.artworks %}
     <div class="gallery-item">
       <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/burstinatrix.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/burstinatrix.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
+         href="{{ '/assets/img/art/' | append: art.name | append: '.png' | relative_url }}"
+         data-theme="dark"
+         data-animation="fade">
+        <picture>
+          <source srcset="{{ '/assets/img/art/' | append: art.name | append: '-480.webp' | relative_url }} 480w, {{ '/assets/img/art/' | append: art.name | append: '-800.webp' | relative_url }} 800w"
+                  type="image/webp"
+                  sizes="(max-width: 600px) 100vw, (max-width: 992px) 50vw, 33vw">
+          <img src="{{ '/assets/img/art/' | append: art.name | append: '-480.webp' | relative_url }}"
+               alt="{{ art.alt }}"
+               loading="lazy"
+               decoding="async">
+        </picture>
       </a>
     </div>
-
-    <!-- Item 2: Supergirl -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/supergirl.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/supergirl.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 3: Mirko -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/mirko.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/mirko.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 4: Makima Maid -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/makima_maid.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/makima_maid.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 5: Demon Flame -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/demon_green_flame.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/demon_green_flame.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 6: Scaramouche -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/scaramouche_school.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/scaramouche_school.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 7: Mecha Pilot -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/mecha_pilot.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/mecha_pilot.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 8: Angel Devil Maid (Drink) -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/angel_maid_drink.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/angel_maid_drink.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 9: Yoru Winter Tactical -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/yoru_winter_tactical.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/yoru_winter_tactical.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 10: Angel Devil Maid (White) -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/angel_maid_white.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/angel_maid_white.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 11: Kobeni Fishing -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/kobeni_fishing.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/kobeni_fishing.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 12: Angel Devil Catboy -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/angel_catboy.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/angel_catboy.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 13: Glitch Water Girl -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/glitch_water_girl.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/glitch_water_girl.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 14: Tactical Blonde Sunset -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/tactical_blonde_sunset.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/tactical_blonde_sunset.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
-    <!-- Item 15: Gorou Suit -->
-    <div class="gallery-item">
-      <a class="spotlight gallery-link"
-         href="{{ '/assets/img/art/gorou_suit.png' | relative_url }}">
-        <img src="{{ '/assets/img/art/gorou_suit.png' | relative_url }}"
-             alt="Visual Artwork"
-             loading="eager">
-      </a>
-    </div>
-
+    {% endfor %}
   </div>
 </div>
 
