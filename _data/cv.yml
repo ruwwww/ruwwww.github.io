@@ -1,189 +1,117 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Abdurrahman Izzuddin Al Faruq
+  label: Information Systems Undergraduate & AI Systems Researcher
+  email: fixgmc@gmail.com
+  location: Surabaya, Indonesia
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Undergraduate student in Information Systems at Institut Teknologi Sepuluh Nopember (ITS) Surabaya and active researcher at Laboratorium Analisis Data dan Diagnostik Informasi (ADDI). Specializing in Machine Learning Systems, CUDA kernel engineering for NVIDIA Blackwell architectures, Large Language Model Alignment (DPO vs. PPO on statutory legal corpora), and Enterprise Information Systems Architecture.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: ruwwww
+    - network: Email
+      username: fixgmc@gmail.com
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Departemen Sistem Informasi, FTEIC - ITS
+    city: Surabaya
+    region: Jawa Timur
+    postalCode: 60111
+    countryCode: ID
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Institut Teknologi Sepuluh Nopember (ITS)
+        location: Surabaya, Indonesia
+        url: https://www.its.ac.id/
+        area: Sistem Informasi (Department of Information Systems)
+        studyType: Bachelor of Science / Sarjana Komputer (S-1)
+        start_date: 2024
+        end_date: Present
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - "Undergraduate Thesis Researcher at Laboratorium Analisis Data dan Diagnostik Informasi (ADDI) focusing on Legal LLM Alignment (DPO vs PPO on Indonesian Criminal Code / KUHP)."
+          - "Key Coursework: Perencanaan Strategis TI (PSTI), Pengembangan Perangkat Lunak (PPPL), Pemrograman Aplikasi Internet (PAI), Machine Learning TI (MLTI), Manajemen Evaluasi Operasional TI (MEOTI), Enterprise Architecture."
+          - "Active in open-source AI infrastructure and high-performance CUDA systems research."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Laboratorium Analisis Data dan Diagnostik Informasi (ADDI), ITS
+        position: Undergraduate Thesis & AI Alignment Researcher
+        location: Surabaya, Indonesia
+        start_date: 2025
+        end_date: Present
+        summary: Conducting empirical alignment and post-training research on statutory legal reasoning and digital sovereignty.
         highlights:
-          - Relativity
-          - Description 2.
+          - "Designed and implemented empirical alignment experiments comparing Direct Preference Optimization (DPO) and Proximal Policy Optimization (PPO) for Indonesian Criminal Code reasoning."
+          - "Curated and validated specialized legal preference datasets and conducted rigorous SFT and alignment benchmarks on open-weight LLMs (Qwen-series)."
+          - "Employed vLLM candidate generation and reward model scoring to evaluate legal fidelity and reduce statutory hallucination."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Systems & High-Performance Computing (Open Source)
+        position: AI Systems & Compiler Engineer
+        location: Surabaya, Indonesia
+        start_date: 2024
+        end_date: Present
+        summary: Engineering bare-metal C++/CUDA inference runtimes and distributed reinforcement learning pipelines.
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - "Developed NInfer: A single-GPU bare-metal C++/CUDA inference engine targeting NVIDIA Blackwell architecture (RTX 5090 & RTX 5060 Ti) with exact-batch CUDA Graphs and MTP speculative decoding."
+          - "Engineered AuK Optimization: Bare-metal streaming engine for Tencent Hunyuan AuK-Flash 1.5B audio foundation model, delivering 30.4x real-time throughput and sub-100ms TTFA via custom CuTe SM120 BF16 GEMM."
+          - "Created Yoshida: Production-grade General LLM Reinforcement Learning & Post-Training framework supporting PPO, DPO, and preference-tuning workflows."
+          - "Authored Axon: Minimal deep learning framework written in C++20 from scratch with eager autograd, AVX2 SIMD CPU backend, and custom quantization."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: AI & Deep Learning Systems
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, CUDA C++, CuTe / CUTLASS, vLLM, TensorRT-LLM, Hugging Face (TRL, Transformers, Accelerate), RLHF, DPO, PPO, Generative Flow Matching"
+
+      - name: Software & Systems Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "C++20, Python 3, CUDA, SQL (PostgreSQL, MySQL), Bash / Shell scripting, Linux Systems Programming, AVX2 SIMD"
+
+      - name: Enterprise IT & DevOps
+        level: Proficient
+        icon: fa-solid fa-server
+        keywords: "Git, GitHub Actions CI/CD, Docker, Linux Server Administration, NGINX, ArchiMate EA, ICONIX Process, COSO / COBIT / SPIP"
+
+    Projects:
+      - name: NInfer (RTX 5060 Ti)
+        url: https://github.com/ruwwww/ninfer-5060ti
+        summary: High-performance C++/CUDA single-GPU inference engine for NVIDIA Blackwell architecture.
+        highlights:
+          - "Custom CUDA kernels for SM120 tensor cores, NVFP4 / INT8 quantization, and multi-token prediction speculative decoding."
+          - "Warmed-up steady-state execution with exact-batch CUDA Graph capture, achieving deterministic low latency."
+
+      - name: AuK Optimization (RTX 5060 Ti)
+        url: https://github.com/ruwwww/AuK-optimization
+        summary: Bare-metal inference & low-latency audio streaming engine on Blackwell SM120.
+        highlights:
+          - "Achieved 24.3x to 30.4x real-time factor and sub-100ms Time-To-First-Audio without runtime UI overhead."
+          - "Custom CuTe BF16 GEMM & Fused SwiGLU operations eliminating FP32 intermediate register staging."
+
+      - name: Yoshida Framework
+        url: https://github.com/ruwwww/yoshida
+        summary: General LLM Reinforcement Learning & Post-Training Framework.
+        highlights:
+          - "Modular post-training engine supporting full-epoch SFT, DPO, and PPO candidate scoring for research reproducibility."
+
+      - name: Axon Deep Learning Framework
+        url: https://github.com/ruwwww/Axon
+        summary: Minimal deep learning framework written in C++20 from scratch.
+        highlights:
+          - "Dynamic graph autograd engine with vectorized AVX2 kernels and GGML-style quantization."
 
     Languages:
-      - name: German
+      - name: Bahasa Indonesia
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent"
+        summary: "Professional working proficiency (Technical reading, writing, and documentation)"
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Machine Learning Systems
+        icon: fa-solid fa-microchip
+        keywords: "High-Performance Computing, GPU Architecture, CUDA Optimization, Low-Bit Quantization, Inference Compilers"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: AI Safety & Governance
+        icon: fa-solid fa-scale-balanced
+        keywords: "Statutory Law NLP, Legal AI Alignment, Preference Optimization, Algorithmic Transparency, Sovereign AI Infrastructure"
