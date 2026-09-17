@@ -29,9 +29,9 @@ cv:
         start_date: 2024
         end_date: Present
         highlights:
-          - "Undergraduate Thesis Researcher at Laboratorium Analisis Data dan Diagnostik Informasi (ADDI) focusing on Legal LLM Alignment (DPO vs PPO on Indonesian Criminal Code / KUHP)."
-          - "Key Coursework: Perencanaan Strategis TI (PSTI), Pengembangan Perangkat Lunak (PPPL), Pemrograman Aplikasi Internet (PAI), Machine Learning TI (MLTI), Manajemen Evaluasi Operasional TI (MEOTI), Enterprise Architecture."
-          - "Active in open-source AI infrastructure and high-performance CUDA systems research."
+          - "Undergraduate Thesis Researcher at Laboratorium Analisis Data dan Diagnostik Informasi (ADDI) focusing on Legal LLM Alignment (DPO vs PPO on statutory legal reasoning)."
+          - "Specializing in Machine Learning Systems, bare-metal GPU inference, and high-performance CUDA computing."
+          - "Active in open-source AI infrastructure and deep learning systems research."
 
     Experience:
       - company: Laboratorium Analisis Data dan Diagnostik Informasi (ADDI), ITS
@@ -68,10 +68,10 @@ cv:
         icon: fa-solid fa-code
         keywords: "C++20, Python 3, CUDA, SQL (PostgreSQL, MySQL), Bash / Shell scripting, Linux Systems Programming, AVX2 SIMD"
 
-      - name: Enterprise IT & DevOps
+      - name: Systems Engineering & Infrastructure
         level: Proficient
         icon: fa-solid fa-server
-        keywords: "Git, GitHub Actions CI/CD, Docker, Linux Server Administration, NGINX, ArchiMate EA, ICONIX Process, COSO / COBIT / SPIP"
+        keywords: "Git, GitHub Actions CI/CD, Docker, Linux Systems Administration, NGINX, Distributed Training Cluster, Slurm, vLLM Engine"
 
     Projects:
       - name: NInfer (RTX 5060 Ti)
