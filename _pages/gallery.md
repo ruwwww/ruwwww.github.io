@@ -79,6 +79,8 @@ artworks:
     alt: Mera (DC Comics)
   - name: mera_dc_pose2
     alt: Mera High Angle (DC Comics)
+  - name: mia_red_hoodie
+    alt: Mia (Mia is Back)
 ---
 
 <style>
