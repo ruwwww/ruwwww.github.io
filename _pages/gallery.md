@@ -77,6 +77,8 @@ artworks:
     alt: Visual Artwork
   - name: mera_dc
     alt: Mera (DC Comics)
+  - name: mera_dc_pose2
+    alt: Mera High Angle (DC Comics)
 ---
 
 <style>
