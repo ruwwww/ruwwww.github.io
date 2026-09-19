@@ -75,6 +75,8 @@ artworks:
     alt: Visual Artwork
   - name: art_1789487942489
     alt: Visual Artwork
+  - name: mera_dc
+    alt: Mera (DC Comics)
 ---
 
 <style>
