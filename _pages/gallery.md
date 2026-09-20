@@ -81,6 +81,8 @@ artworks:
     alt: Mera High Angle (DC Comics)
   - name: mia_red_hoodie
     alt: Mia (Mia is Back)
+  - name: asherah_smt
+    alt: Asherah (Shin Megami Tensei)
 ---
 
 <style>
