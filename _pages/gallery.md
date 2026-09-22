@@ -83,6 +83,8 @@ artworks:
     alt: Mia (Mia is Back)
   - name: asherah_smt
     alt: Asherah (Shin Megami Tensei)
+  - name: mata_hari_majo_taisen
+    alt: Mata Hari (Majo Taisen / The War of Greedy Witches)
 ---
 
 <style>
