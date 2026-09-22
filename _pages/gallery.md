@@ -85,6 +85,8 @@ artworks:
     alt: Asherah (Shin Megami Tensei)
   - name: mata_hari_majo_taisen
     alt: Mata Hari (Majo Taisen / The War of Greedy Witches)
+  - name: hirara_mlbb
+    alt: Hirara (Mobile Legends: Bang Bang)
 ---
 
 <style>
