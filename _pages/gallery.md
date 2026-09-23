@@ -89,6 +89,10 @@ artworks:
     alt: "Hirara (Mobile Legends: Bang Bang)"
   - name: alien_sci_fi_girl
     alt: "Futuristic Alien Sci-Fi Girl"
+  - name: mantis_marvel_rivals_1
+    alt: "Mantis (Marvel Rivals)"
+  - name: mantis_marvel_rivals_2
+    alt: "Mantis Full Pose (Marvel Rivals)"
 ---
 
 <style>
