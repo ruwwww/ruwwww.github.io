@@ -87,6 +87,8 @@ artworks:
     alt: Mata Hari (Majo Taisen / The War of Greedy Witches)
   - name: hirara_mlbb
     alt: "Hirara (Mobile Legends: Bang Bang)"
+  - name: alien_sci_fi_girl
+    alt: "Futuristic Alien Sci-Fi Girl"
 ---
 
 <style>
