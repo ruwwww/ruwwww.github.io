@@ -9,6 +9,10 @@ cv:
   social_networks:
     - network: GitHub
       username: ruwwww
+    - network: Hugging Face
+      username: ruwwww
+    - network: X (Twitter)
+      username: izzuddinalfaruq
     - network: Email
       username: fixgmc@gmail.com
 
