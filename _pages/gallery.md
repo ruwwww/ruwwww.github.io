@@ -93,6 +93,8 @@ artworks:
     alt: "Mantis (Marvel Rivals)"
   - name: mantis_marvel_rivals_2
     alt: "Mantis Full Pose (Marvel Rivals)"
+  - name: zetian_celestial_empress
+    alt: "Wu Zetian - Celestial Empress (Mobile Legends: Bang Bang)"
 ---
 
 <style>
