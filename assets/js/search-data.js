@@ -114,6 +114,11 @@ ninja.data = [{
           description: "Bare-metal inference &amp; ultra-low-latency streaming engine for Tencent Hunyuan AuK-Flash 1.5B on NVIDIA Blackwell SM120",
           section: "Projects",handler: () => {
               window.location.href = "/projects/14_auk_optimization/";
+            },},{id: "projects-diffusion-loras",
+          title: 'Diffusion LoRAs',
+          description: "Collection of custom-trained character, style, and concept LoRA models for Anima DiT, Illustrious SDXL, and modern diffusion pipelines",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/15_diffusion_loras/";
             },},{id: "projects-yoshida",
           title: 'Yoshida',
           description: "Production-grade General LLM Reinforcement Learning &amp; Post-Training Framework",
