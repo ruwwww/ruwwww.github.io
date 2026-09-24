@@ -222,7 +222,7 @@ artworks:
   <!-- Intro Note about Works & LoRA Opportunities -->
   <div class="gallery-intro">
     A showcase of digital artworks, character illustrations, and visual studies—featuring custom-trained <strong>LoRA</strong> (Low-Rank Adaptation) models and direct diffusion generative pipelines.
-    Explore published weights and datasets on Hugging Face: <a href="https://huggingface.co/ruwwww/diffusion_loras" target="_blank" rel="noopener"><strong>ruwwww/diffusion_loras</strong> <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a>.<br>
+    Explore published weights on Hugging Face: <a href="https://huggingface.co/ruwwww/diffusion_loras" target="_blank" rel="noopener"><strong>ruwwww/diffusion_loras</strong> <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a>.<br>
     I am actively open to opportunities, commissions, and collaborations for custom LoRA training and diffusion workflows—feel free to reach out via <a href="mailto:fixgmc@gmail.com">email</a>, connect on <a href="https://github.com/ruwwww" target="_blank" rel="noopener">GitHub</a>, or view checkpoints on <a href="https://huggingface.co/ruwwww/diffusion_loras" target="_blank" rel="noopener">Hugging Face</a>.
   </div>
 
