@@ -97,6 +97,8 @@ artworks:
     alt: "Wu Zetian - Celestial Empress (Mobile Legends: Bang Bang)"
   - name: agent_honeydew
     alt: "Agent Honeydew (Dexter's Laboratory)"
+  - name: aya_green_lantern
+    alt: "Aya (Green Lantern / DC Comics)"
 ---
 
 <style>
