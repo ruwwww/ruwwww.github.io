@@ -99,6 +99,8 @@ artworks:
     alt: "Agent Honeydew (Dexter's Laboratory)"
   - name: aya_green_lantern
     alt: "Aya (Green Lantern / DC Comics)"
+  - name: inque_batman_beyond
+    alt: "Inque (Batman Beyond / DC Animated Universe)"
 ---
 
 <style>
