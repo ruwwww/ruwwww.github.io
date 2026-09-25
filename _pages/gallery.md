@@ -101,6 +101,8 @@ artworks:
     alt: "Aya (Green Lantern / DC Comics)"
   - name: inque_batman_beyond
     alt: "Inque (Batman Beyond / DC Animated Universe)"
+  - name: mira_nova
+    alt: "Mira Nova (Buzz Lightyear of Star Command)"
 ---
 
 <style>
