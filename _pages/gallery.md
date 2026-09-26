@@ -88,7 +88,7 @@ artworks:
   - name: hirara_mlbb
     alt: "Hirara (Mobile Legends: Bang Bang)"
   - name: alien_sci_fi_girl
-    alt: "Futuristic Alien Sci-Fi Girl"
+    alt: "Novaria (Mobile Legends: Bang Bang) - Pose 1"
   - name: mantis_marvel_rivals_1
     alt: "Mantis (Marvel Rivals)"
   - name: mantis_marvel_rivals_2
@@ -103,6 +103,8 @@ artworks:
     alt: "Inque (Batman Beyond / DC Animated Universe)"
   - name: mira_nova
     alt: "Mira Nova (Buzz Lightyear of Star Command)"
+  - name: novaria_mlbb_2
+    alt: "Novaria (Mobile Legends: Bang Bang) - Pose 2"
 ---
 
 <style>
