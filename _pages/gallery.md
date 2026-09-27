@@ -105,6 +105,10 @@ artworks:
     alt: "Mira Nova (Buzz Lightyear of Star Command)"
   - name: novaria_mlbb_2
     alt: "Novaria (Mobile Legends: Bang Bang) - Pose 2"
+  - name: gogo_tomago_casual
+    alt: "Go Go Tomago - Casual (Big Hero 6)"
+  - name: gogo_tomago_suit
+    alt: "Go Go Tomago - Armor Suit (Big Hero 6)"
 ---
 
 <style>
