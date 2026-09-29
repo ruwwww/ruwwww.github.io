@@ -109,6 +109,8 @@ artworks:
     alt: "Go Go Tomago - Casual (Big Hero 6)"
   - name: gogo_tomago_suit
     alt: "Go Go Tomago - Armor Suit (Big Hero 6)"
+  - name: queen_tyrahnee
+    alt: "Queen Tyr'ahnee (Duck Dodgers)"
 ---
 
 <style>
