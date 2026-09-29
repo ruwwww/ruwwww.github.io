@@ -111,6 +111,8 @@ artworks:
     alt: "Go Go Tomago - Armor Suit (Big Hero 6)"
   - name: queen_tyrahnee
     alt: "Queen Tyr'ahnee (Duck Dodgers)"
+  - name: camille_lol
+    alt: "Camille (League of Legends)"
 ---
 
 <style>
