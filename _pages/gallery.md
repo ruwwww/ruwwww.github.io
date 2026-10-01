@@ -114,7 +114,7 @@ artworks:
   - name: camille_lol
     alt: "Camille (League of Legends)"
   - name: selena_silverbolt_raiko
-    alt: "Selena "Silverbolt" Raiko (The Aspirants - Mobile Legends: Bang Bang)"
+    alt: 'Selena "Silverbolt" Raiko (The Aspirants - Mobile Legends: Bang Bang)'
 ---
 
 <style>
