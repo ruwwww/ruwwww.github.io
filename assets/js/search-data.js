@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-gallery",
+          title: "gallery",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/gallery/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "Curriculum Vitae detailing academic trajectory, systems engineering projects, and research at Institut Teknologi Sepuluh Nopember (ITS).",
