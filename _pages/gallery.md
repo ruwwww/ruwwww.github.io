@@ -115,6 +115,8 @@ artworks:
     alt: "Camille (League of Legends)"
   - name: selena_silverbolt_raiko
     alt: "Selena Silverbolt Raiko (The Aspirants - Mobile Legends: Bang Bang)"
+  - name: malfoid_draco_malfoy
+    alt: "Malfoid - Genderbent Draco Malfoy (Harry Potter)"
 ---
 
 <style>
