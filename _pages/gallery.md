@@ -119,6 +119,8 @@ artworks:
     alt: "Malfoid - Genderbent Draco Malfoy (Harry Potter)"
   - name: kalea_surfing_wave
     alt: "Kalea - Surfing Wave (Mobile Legends: Bang Bang)"
+  - name: aki_hayakawa_csm
+    alt: "Aki Hayakawa (Chainsaw Man)"
 ---
 
 <style>
