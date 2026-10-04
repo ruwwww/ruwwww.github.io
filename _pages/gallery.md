@@ -121,6 +121,8 @@ artworks:
     alt: "Kalea - Surfing Wave (Mobile Legends: Bang Bang)"
   - name: aki_hayakawa_csm
     alt: "Aki Hayakawa (Chainsaw Man)"
+  - name: sins_of_the_gods_goddess
+    alt: "Celestial Goddess (Sins of the Gods)"
 ---
 
 <style>
