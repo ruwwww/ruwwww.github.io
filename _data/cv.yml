@@ -38,6 +38,17 @@ cv:
           - "Active in open-source AI infrastructure and deep learning systems research."
 
     Experience:
+      - company: Unit Pengelolaan dan Pengendalian Program (UP3), ITS
+        position: AI Engineer (Part-Time)
+        location: Surabaya, Indonesia
+        start_date: 2026
+        end_date: Present
+        summary: Engineering enterprise agentic RAG systems, custom Model Context Protocol (MCP) data services, and high-throughput sovereign LLM inference runtimes.
+        highlights:
+          - "Architected and deployed an internal enterprise Agentic RAG system with a conversational interface for administrative intelligence and program analytics."
+          - "Developed a custom Model Context Protocol (MCP) server enabling secure, low-latency agentic query synthesis over large-scale institutional MS SQL Server databases."
+          - "Self-hosted sovereign foundation models (Qwen 27B–35B) using optimized bare-metal inference runtimes, achieving sustained decode throughput of up to 1,300 tokens/sec."
+
       - company: Laboratorium Analisis Data dan Diagnostik Informasi (ADDI), ITS
         position: Undergraduate Thesis & AI Alignment Researcher
         location: Surabaya, Indonesia
@@ -65,12 +76,12 @@ cv:
       - name: AI & Deep Learning Systems
         level: Advanced
         icon: fa-solid fa-brain
-        keywords: "PyTorch, CUDA C++, CuTe / CUTLASS, vLLM, TensorRT-LLM, Hugging Face (TRL, Transformers, Accelerate), RLHF, DPO, PPO, Generative Flow Matching"
+        keywords: "PyTorch, CUDA C++, CuTe / CUTLASS, vLLM, TensorRT-LLM, Agentic RAG, Hugging Face (TRL, Transformers, Accelerate), RLHF, DPO, PPO, Generative Flow Matching"
 
       - name: Software & Systems Programming
         level: Advanced
         icon: fa-solid fa-code
-        keywords: "C++20, Python 3, CUDA, SQL (PostgreSQL, MySQL), Bash / Shell scripting, Linux Systems Programming, AVX2 SIMD"
+        keywords: "C++20, Python 3, CUDA, SQL (MS SQL Server, PostgreSQL, MySQL), Model Context Protocol (MCP), Bash / Shell scripting, Linux Systems Programming, AVX2 SIMD"
 
       - name: Systems Engineering & Infrastructure
         level: Proficient
