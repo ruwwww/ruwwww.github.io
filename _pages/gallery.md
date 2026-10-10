@@ -123,6 +123,8 @@ artworks:
     alt: "Aki Hayakawa (Chainsaw Man)"
   - name: sins_of_the_gods_goddess
     alt: "Celestial Goddess (Sins of the Gods)"
+  - name: mia_mias_tool
+    alt: "Mia (Mia's Tool Manhwa)"
 ---
 
 <style>
