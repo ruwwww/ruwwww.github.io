@@ -125,6 +125,8 @@ artworks:
     alt: "Celestial Goddess (Sins of the Gods)"
   - name: mia_mias_tool
     alt: "Mia (Mia's Tool Manhwa)"
+  - name: ancient_mermaimon_digimon
+    alt: "AncientMermaimon (Digimon)"
 ---
 
 <style>
