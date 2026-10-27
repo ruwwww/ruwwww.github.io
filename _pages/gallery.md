@@ -129,6 +129,8 @@ artworks:
     alt: AncientMermaimon (Digimon)
   - name: athena_haruka
     alt: Athena Haruka (Uchi no Musume ni Te o Dasu na! - Oyako Heroine Funtousu)
+  - name: akira_iwakiyama
+    alt: Akira Iwakiyama (Kemono Jihen)
 ---
 
 <style>
