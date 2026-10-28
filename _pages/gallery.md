@@ -131,6 +131,10 @@ artworks:
     alt: Athena Haruka (Uchi no Musume ni Te o Dasu na! - Oyako Heroine Funtousu)
   - name: akira_iwakiyama
     alt: Akira Iwakiyama (Kemono Jihen)
+  - name: ena
+    alt: ENA (ENA: Dream BBQ)
+  - name: coral_glasses
+    alt: Coral Glasses (ENA: Dream BBQ)
 ---
 
 <style>
