@@ -132,9 +132,9 @@ artworks:
   - name: akira_iwakiyama
     alt: Akira Iwakiyama (Kemono Jihen)
   - name: ena
-    alt: ENA (ENA: Dream BBQ)
+    alt: "ENA (ENA: Dream BBQ)"
   - name: coral_glasses
-    alt: Coral Glasses (ENA: Dream BBQ)
+    alt: "Coral Glasses (ENA: Dream BBQ)"
 ---
 
 <style>
